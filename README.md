@@ -1,1 +1,1 @@
-# laboratorio-ciberseguridad-SofiaGonzalez
+# cliente-lan
