@@ -1,5 +1,6 @@
-FROM python:3.11-alpine
+FROM python:3.11-slim
 WORKDIR /app
-COPY app.py .
+COPY . .
+EXPOSE 80
 CMD ["python", "app.py"]
 
