@@ -132,7 +132,8 @@ class ServidorDMZ(BaseHTTPRequestHandler):
             <div class="seccion enlaces">
                 <h2>Escenarios del Laboratorio</h2>
                 <p style="margin-bottom: 0.8rem; color: #6b7280;">Próximamente disponibles:</p>
-                <a href="#">01 — Ataque DoS</a>
+                <a href="#">01 — Ataque DoS<<a href="PEGAR-TU-URL-AQUÍ" target="_blank" style="display:inline-block; padding:10px 16px; background:#fef2f2; color:#dc2626; border:1px solid #fecaca; border-radius:8px; text-decoration:none; font-weight:500; margin:5px;">01 — Ataque DoS</a>
+>
                 <a href="#">02 — Escaneo de Puertos</a>
                 <a href="#">03 — Fuerza Bruta</a>
                 <a href="#">04 — Exfiltración DNS</a>
