@@ -144,7 +144,8 @@ class ServidorDMZ(BaseHTTPRequestHandler):
 >
                 <a href="#">06 — Credential Stuffing<a href="https://lab-credential-sofia.onrender.com" target="_blank" style="display:inline-block; padding:10px 16px; background:#fdf2f8; color:#be185d; border:1px solid #fbcfe8; border-radius:8px; text-decoration:none; font-weight:500; margin:5px;">06 — Credential Stuffing</a>
 >
-                <a href="#">07 — Proxy MITM</a>
+                <a href="#">07 — Proxy MITM<a href="https://lab-mitm-sofia.onrender.com" target="_blank" style="display:inline-block; padding:10px 16px; background:#fefce8; color:#854d0e; border:1px solid #fde68a; border-radius:8px; text-decoration:none; font-weight:500; margin:5px;">07 — Proxy MITM</a>
+
             </div>
         </div>
         <div class="pie">
