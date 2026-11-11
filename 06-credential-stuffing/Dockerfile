@@ -1,13 +1,5 @@
-FROM alpine:latest
-
-# Instalamos curl, bind-tools y python3
-RUN apk add --no-cache curl bind-tools python3
-
+FROM python:3.11-slim
 WORKDIR /app
-
-COPY entrypoint.sh /app/entrypoint.sh
-RUN chmod +x /app/entrypoint.sh
-
-EXPOSE 8080
-
-ENTRYPOINT ["/app/entrypoint.sh"]
+COPY . /app
+EXPOSE 80
+CMD ["python", "app.py"]
