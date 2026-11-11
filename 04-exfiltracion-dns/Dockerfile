@@ -1,13 +1,5 @@
-FROM alpine:latest
-
-# Instalamos bind-tools (para nslookup/dig), curl y python3
-RUN apk add --no-cache bind-tools curl python3
-
+FROM python:3.11-alpine
 WORKDIR /app
+COPY app.py .
+CMD ["python", "app.py"]
 
-COPY entrypoint.sh /app/entrypoint.sh
-RUN chmod +x /app/entrypoint.sh
-
-EXPOSE 8080
-
-ENTRYPOINT ["/app/entrypoint.sh"]
