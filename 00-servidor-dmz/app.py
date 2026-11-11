@@ -138,7 +138,7 @@ class ServidorDMZ(BaseHTTPRequestHandler):
 >
                 <a href="#">03 — Fuerza Bruta<<a href="https://lab-fuerza-bruta.onrender.com" target="_blank" style="display:inline-block; padding:10px 16px; background:#fffbeb; color:#b45309; border:1px solid #fde68a; border-radius:8px; text-decoration:none; font-weight:500; margin:5px;">03 — Fuerza Bruta</a>
 >
-                <a href="#">04 — Exfiltración DNS<<a href="" target="_blank" style="display:inline-block; padding:10px 16px; background:#eef2ff; color:#4338ca; border:1px solid #c7d2fe; border-radius:8px; text-decoration:none; font-weight:500; margin:5px;">04 — Exfiltración DNS</a>
+                <a href="#">04 — Exfiltración DNS<<a href="https://lab-dns-sofia.onrender.com" target="_blank" style="display:inline-block; padding:10px 16px; background:#eef2ff; color:#4338ca; border:1px solid #c7d2fe; border-radius:8px; text-decoration:none; font-weight:500; margin:5px;">04 — Exfiltración DNS</a>
 >
                 <a href="#">05 — Cadena de Suministro</a>
                 <a href="#">06 — Credential Stuffing</a>
