@@ -126,6 +126,15 @@ class AtaqueDoSHandler(BaseHTTPRequestHandler):
                     </div>
                 </div>
             </div>
+            <div class="seccion">
+                <h2>Prevención</h2>
+                <ul class="lista">
+                    <li>Uso de firewalls y sistemas de detección de intrusos</li>
+                    <li>Limitar la cantidad de conexiones por IP</li>
+                    <li>Usar servicios de mitigación en la nube</li>
+                    <li>Monitoreo constante del tráfico</li>
+                </ul>
+            </div>
             <a href="https://laboratorio-ciberseguridad-sofiagonzalez.onrender.com" class="volver">← Volver al Servidor DMZ</a>
         </div>
         <div class="pie">
@@ -141,4 +150,3 @@ if __name__ == "__main__":
     puerto = int(os.getenv("PORT", 80))
     servidor = HTTPServer(("0.0.0.0", puerto), AtaqueDoSHandler)
     servidor.serve_forever()
-
